@@ -1,1 +1,60 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;900&display=swap');
+
+
+
+body{
+
+    font-family: 'Urbanist', sans-serif;
+    margin:0;
+    padding:4rem;
+    background-color: blanchedalmond;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.heading{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+flex: 0.4;
+
+}
+
+.profilepic{
+
+    width:150px;
+    height: 160px;
+    padding:10px;
+   
+}
+
+.aboutMe{
+   flex: 0.5;
+
+}
+
+li{
+    list-style:circle ;
+
+}
+
+.grey{
+    background-color: lightgray;
+    /* position: relative; */
+    width:270px;
+}
+
+.blue{
+    background-color: rgb(13, 106, 235);
+}
+
+span{
+    font-size:12px ;
+    margin: 0;
+    padding: 0;
+}
